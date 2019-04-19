@@ -3,19 +3,24 @@
 
 ## Introduction
 
-This short lesson summarizes the topics we covered in section 24 and why they'll be important to you as a data scientist.
+Congratulations, you've just modeled some complex relationships with interaction terms, polynomials, and regularization! Here is a recap of what you learned in this section.
 
 ## Objectives
 You will be able to:
-* Understand and explain what was covered in this section
-* Understand and explain why this section will help you become a data scientist
+* Critically think about the different ways data scientists add complexity to basic regression models.
+* Determine the right balance between complexity and simplicity through the lens of bias and variance
 
 ## Key Takeaways
 
-The key takeaways from this section include:
-* An interaction is a particular property of three or more variables, where two or more variables interact in a non-additive manner when affecting a third variable
-* Polynomial regression allows for better fitting data that isn't well predicted using a linear model
-* The risk of polynomial regressions is that it's easier to overfit data, so it's important to consider the Bias-Variance trade-off
-* Ridge and lasso regressions are two techniques for making complex models more expensive in the cost fnction, reducing the risk of overfitting
-* AIC and BIC are techniques for selecting between models
+This section gave you the chance to learn about techniques whereby you can model non-linear relationships with data. It's very rare that real-world problems can be modeled with a simple linear regression, so it's important to get yourself well acquainted with creating new features and selecting the most important ones.
 
+* An interaction is a particular property of three or more variables, where two or more variables interact in a non-additive manner when affecting a third variable.
+* Polynomial regression allows for better fitting data that isn't well predicted using a linear model.
+* The risk of polynomial regressions is that it's easier to overfit data, so it's important to consider the Bias-Variance trade-off and perform proper cross validation.
+* Ridge and Lasso regressions are two regularization techniques used for making complex models more expensive in the cost function, reducing the risk of overfitting.
+* Feature Selection is an important component of model building, and it can have a drastic impact on the overall performance of a model.
+* AIC and BIC are techniques for selecting between models in a manner that penalizes are more complex.
+
+## Summary
+
+Excellent work! You learned a substantial amount about different ways to model non-linear relationships. You will continue to use and build upon the concepts learned in this section for the rest of your machine learning career.
