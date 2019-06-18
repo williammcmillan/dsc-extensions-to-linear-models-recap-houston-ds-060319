@@ -19,7 +19,7 @@ This section gave you the chance to learn about techniques whereby you can model
 * The risk of polynomial regressions is that it's easier to overfit data, so it's important to consider the Bias-Variance trade-off and perform proper cross validation.
 * Ridge and Lasso regressions are two regularization techniques used for making complex models more expensive in the cost function, reducing the risk of overfitting.
 * Feature Selection is an important component of model building, and it can have a drastic impact on the overall performance of a model.
-* AIC and BIC are techniques for selecting between models in a manner that penalizes are more complex.
+* AIC and BIC are techniques for selecting models that penalize models the more complex they are.
 
 ## Summary
 
